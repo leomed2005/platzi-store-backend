@@ -1,0 +1,27 @@
+language: node_js
+cache:
+  directories:
+    - node_modules
+    - ~/.npm
+node_js:
+  - '12'
+git:
+  depth: 3
+script:
+  - yarn test
+notifications:
+  slack: leomedtewt:jaPkczHSJIn4PwGR1pfZh3uO
+  email:
+    recipients:
+      - leomed2005@gmail.com
+      - leomed2002@hotmail.com
+    on_success: allways
+    on_failure: allways
+deploy:
+  provide: heroku
+  skip-cleanup: true
+  keep-history: true
+  api_key: 79cae588-ee04-4bc7-b48b-5207b61a79b5
+  app: platzi-store-backend00
+  on: 
+    repo: leomed2005/platzi-store-backend
