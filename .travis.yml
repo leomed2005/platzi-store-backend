@@ -10,7 +10,8 @@ git:
 script:
   - yarn test
 notifications:
-  slack: leomedtewt:jaPkczHSJIn4PwGR1pfZh3uO
+  slack: 
+    secure: "SsaGgjaK4xi2H7bIzcyn8A9Vg+zvS0qCo3RaL9eLBFugfdiihBL+r9tef3jHeQfgEuDMMw5uHCZmwqMVUOABFnU+rhuIYBJuW6RWz2nqblz8LURevXPT6lj5Y03EGuC8XZrdtRKyK1rwaHl5aHx18FaF9tbpbWIEPtdwieFDyf3V9ChLAcPi7qAfpzNcv/q2HmvwZychBwP/X3cRU3rkttvMTTuAzp5uRgDbwr6PxtfU6UaeOf1YfRuQjQ6OfIri434v2RxjuNFOnNcQijbJHfrt9Q71d+0VDOMMVd/rHe6KbuDSLiT6Gb+q7TVb/bNFywC9jn4/hCE6UmbuMWP8L7hoDvBTdNKUOpT7a9dz7sIAklG85nhILQZf+COIyjYgPh3aJCcxkZFvPr4QTRmPGc5L9DK4zjxvKvXW9FydcfO4WmHiJxsGjx96+H2hEvuLShsxd0Zzfk4gHKq+DbZ/b7028Edy5GoW1Fygt4jgPGv0FVZYCBMcDcUuqpS4oSL9n1TLCg78Kc2F8toI75AeWyWAZmOPmTa10tP1phA9mRIjSbnN2lzqiyyRcfuspUg1ppvTNaE8vFZbIEVoO925MgM3+skmY/Day6XEXMmc8LuNKw8+jmqRQJ1mG4Xkzrz3oeKDQN0pA2htKo8LOWfx0IOfbI66UtU+xWuX80mjbUk="
   email:
     recipients:
       - leomed2005@gmail.com
@@ -21,7 +22,8 @@ deploy:
   provide: heroku
   skip-cleanup: true
   keep-history: true
-  api_key: 79cae588-ee04-4bc7-b48b-5207b61a79b5
+  api_key: 
+    secure: "cIxaUHHpovCNL4HY3fuTa7FwB8qxJccuMsSsBlszbzbTKWXNBwKKyZ5OEE8000Fer1fEX5MV8uKk2x8WiSFK9rxusGaxHcWKpo3gQi07/n/5o2B588iiQ/TmSxM4hAWlNPRYdcoh1EoTz/OXfCHwvvDzpoS1EANGQcbna9fkha3ArOlYd1odpKF8aa1TmEtUBcPBtQ3fvf9Ub6C/o2R8aIdRj6DQQ87tbrOc1jkkUyTRT+e3SviTY8pkN4lR5KWyOkWHLrN8VpkTPlo/qUao2wpsMVdGFUCi4VNEIZPuMxJhc7zDarHJCnjb3qirnPUEjr0uGRYwb3JnPdEFMOVDXLspT7h5fhEA/b4gHbXscK9UXumFPGUoSqmh31AFsC9kXm8iFiDhK8iXmsCkPKRsSMvD3+dcpWjTGYvW4M++tnzQxBZZiHIVDfv3+zhZDFSd2p3kjRPP0XDIX7g9EJ2I2/z6qmEZR248c8WCvVVK7M5+HznK3IfAH0zuk5LCq7N/xPW9dGrAG8pl/7Br3wSy+7cN8pVjTFHU1jHgw1Wo1N7bukgpmzkA9NnUVjUg1xYIN9b0U7YxijTy2Ur2/r9s8rG16IjB/Shmz7cAXuPPeKiKG/PPAHFMZEptn8nyabgknHJys5LY+FJWm7rbaU0nfWkEQOyHNCuQu0z+OgGtzMs="
   app: platzi-store-backend00
   on: 
     repo: leomed2005/platzi-store-backend
